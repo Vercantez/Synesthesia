@@ -68,8 +68,8 @@ public class DrawView: NSView {
         let point = event.locationInWindow
         currentPathWrapper.path.line(to: point)
         currentPathWrapper.path.lineWidth = brushWidth
-        currentPathWrapper.path.lineCapStyle = .roundLineCapStyle
-        currentPathWrapper.path.lineJoinStyle = .roundLineJoinStyle
+        currentPathWrapper.path.lineCapStyle = .round
+        currentPathWrapper.path.lineJoinStyle = .round
         pathWrappers.append(currentPathWrapper)
         
         // If more than 10 segments, render to image
