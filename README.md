@@ -1,3 +1,3 @@
 # Synesthesia
 
-This is the exact code I submitted for my WWDC 2018 Scholarship application.
+Playground submitted for WWDC 2018 scholarship. Try it out in Xcode playgrounds!
